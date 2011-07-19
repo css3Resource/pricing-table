@@ -1,0 +1,122 @@
+/* Your Css */
+
+html, body{
+	background: #f2f0eb;
+}
+
+/* typography */
+
+h1{
+	font-family: Georgia, serif;
+	color: #444;
+	font-size: 22px;
+	text-align: center;
+	font-weight: normal;
+}
+
+h2{
+	text-align: center;
+	margin: 18px 0;
+}
+
+
+.stripe{
+	font-family: Georgia, serif;
+	font-style: italic;
+	text-align: center;
+	color: #888;
+}
+
+ul.description li{
+	text-align: center;
+	color: #444;
+	font-size: 12px;
+}
+
+.button{
+	text-align: center;
+}
+
+.button a{
+	color: #252525;
+	text-decoration: none;
+	font-family: Georgia, serif;
+	font-style: italic;
+	font-size: 14px;	
+}
+
+/* structure */
+
+#container{
+	width: 220px;
+	margin: 150px auto;
+}
+
+.table{
+	width: 218px;
+	background: #fdfcfa;
+	border: 1px solid #d3d3d3;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	padding-top: 30px;	
+}
+
+.table:hover{
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+  	-o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+	box-shadow:inset 5px 5px 0 #f6f5f1, inset -5px -5px 0 #f6f5f1;
+}
+
+.stripe{
+	background: rgba(251,250,248, .3);
+	border-top: 1px solid #dedddc;
+	border-bottom: 1px solid #dedddc;
+	padding: 10px 0;
+	margin: 18px 0;	
+}
+
+ul.description{
+	margin: 0;
+	list-style: none;
+	width: 150px;
+	margin: 0 auto;
+	border-top: 1px dashed #dedddc;
+	margin-bottom: 18px;
+}
+
+ul.description li{
+	padding: 10px 0;
+	border-bottom: 1px dashed #dedddc;
+}
+
+.button{
+	background: rgba(248, 249, 246, .3);
+	padding: 40px 0;
+}
+
+.button a{
+	border-radius: 25px;
+	border: 1px solid #dbc989;
+	background-color: #f0dfa5;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f0dfa5), to(#e2c24f));
+	background-image: -webkit-linear-gradient(top, #f0dfa5, #e2c24f);
+	background-image:    -moz-linear-gradient(top, #f0dfa5, #e2c24f);
+	background-image:     -ms-linear-gradient(top, #f0dfa5, #e2c24f);
+	background-image:      -o-linear-gradient(top, #f0dfa5, #e2c24f);
+	background-image:         linear-gradient(top, #f0dfa5, #e2c24f);
+	padding: 13px 30px;
+}
+
+.button a:active{
+	background-color: #f0dfa5;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#e2c24f), to(#f0dfa5));
+	background-image: -webkit-linear-gradient(top, #e2c24f, #f0dfa5);
+	background-image:    -moz-linear-gradient(top, #e2c24f, #f0dfa5);
+	background-image:     -ms-linear-gradient(top, #e2c24f, #f0dfa5);
+	background-image:      -o-linear-gradient(top, #e2c24f, #f0dfa5);
+	background-image:         linear-gradient(top, #e2c24f, #f0dfa5);
+}
